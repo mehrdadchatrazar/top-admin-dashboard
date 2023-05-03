@@ -186,7 +186,7 @@ html {
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
-  padding: 0px 50px;
+  padding: 10px 50px;
 }
 
 .header span {
@@ -273,5 +273,55 @@ html {
 }
 
 .content {
-  background-color: aquamarine;
+  background-color: #e0e7ff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.content-heading {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3;
+  gap: 15px;
+  
+}
+
+.project-card {
+  background-color: white;
+  border-left: 8px solid #fdba74;
+  border-radius: 10px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card__heading {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.project-card__buttons {
+  margin-top: 50px;
+  align-self: flex-end;
+  display: flex;
+  gap: 20px;
+}
+
+.announcements {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending {
+  grid-column: 4/5;
 }
