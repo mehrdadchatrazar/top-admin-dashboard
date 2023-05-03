@@ -298,7 +298,7 @@ html {
   background-color: white;
   border-left: 8px solid #fdba74;
   border-radius: 10px;
-  padding: 30px 20px;
+  padding: 47px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -346,5 +346,32 @@ html {
 }
 
 .trending {
-  grid-column: 4/5;
+  margin-top: 40px;
+}
+
+.trending-cards {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px 30px 10px 30px;
+}
+
+.trend-card {
+  display: flex;
+  gap: 20px;
+}
+
+.trend-card:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.trend-card img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.trend-card__description h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
 }
